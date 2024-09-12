@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-border-radius {
+  border-radius: 0;
+}
+
+.custom-border-radius-alt {
+  border-radius: 8px;
+}
+
+.full-height {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.sidebar-no-radius {
+  border-radius: 0 !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .custom-border-radius {
+    border-radius: 0;
+  }
+  .max-width-17rem {
+    max-width: 100%;
+  }
+}

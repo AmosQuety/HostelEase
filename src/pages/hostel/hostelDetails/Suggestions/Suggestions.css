@@ -1,0 +1,31 @@
+.suggestions-container {
+  background-color: #f4f6f6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 612px;
+}
+
+.suggestions-container h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.suggestions-container h2 {
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.suggestions-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.suggestions-container .category {
+  margin-bottom: 16px;
+}
+
+.suggestions-container li {
+  margin-bottom: 8px;
+}

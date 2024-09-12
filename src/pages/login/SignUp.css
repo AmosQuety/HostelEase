@@ -1,0 +1,25 @@
+* {
+  /* padding: 0; */
+  margin: 0;
+}
+
+html,
+body {
+  /* padding: 0; */
+  margin: 0;
+}
+
+.firstClass {
+  height: 120vh;
+}
+
+.class {
+  width: 500px;
+  padding: 80px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  height: 700px;
+}
+.input {
+  height: 20px;
+}

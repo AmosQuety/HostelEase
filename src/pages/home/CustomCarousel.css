@@ -1,0 +1,9 @@
+/* CustomCarousel.css */
+.carousel .slide img {
+  max-height: 400px; /* Adjust this as needed */
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}

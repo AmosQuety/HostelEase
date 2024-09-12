@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.hostel-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 250px;
+  overflow: hidden;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.hostel-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hostel-image-container {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hostel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+}
+
+.hostel-details {
+  padding: 10px;
+  text-align: center;
+  flex: 1; /* Ensure details section takes up remaining space */
+}
+
+.hostel-name {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.hostel-location {
+  font-size: 0.8rem;
+  color: #333;
+}
+.hostel-price {
+  font-size: 0.8rem;
+  color: #333;
+}
+.hostel-button {
+  padding: 5px;
+  background-color: #1f2794;
+  font-size: 13px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hostel-button:hover {
+  background-color: #0056b3;
+}

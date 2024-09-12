@@ -1,0 +1,59 @@
+/* src/CustodianDashboard.css */
+.dashboard {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.dashboard-header {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+.dashboard-main {
+  margin: 20px 0;
+}
+
+.stats {
+  margin-bottom: 20px;
+}
+
+.stat {
+  background-color: #f8f9fa;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hostel-management {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.add-hostel-button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-hostel-button:hover {
+  background-color: #0056b3;
+}
+
+.hostel-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hostel-list li {
+  background-color: #e2e6ea;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
